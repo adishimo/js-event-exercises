@@ -33,3 +33,7 @@ h2 em {
 #thumbs a:hover {
   border-color: #ff9900;
 }
+
+#list > a {
+  background-color: red;
+}
