@@ -1,0 +1,15 @@
+#field {
+  width: 200px;
+  height: 150px;
+  border: 10px solid rgb(255, 77, 77);
+  background-color: #1c8ccc;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#ball {
+  position: absolute;
+  left: 100px; /* relative to the closest positioned ancestor (field) */
+  top: 100px;
+  transition: 1s all; /* CSS animation for left/top makes the ball fly */
+}
